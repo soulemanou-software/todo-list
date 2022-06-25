@@ -9,14 +9,14 @@
 
 ## Built With
 
-- ## Major languages
+### Major languages
 - HTML
 - CSS
 - JavaScript 
-- Frameworks
+### Frameworks
 - WEBPACK 
 - Linters
-- Technologies used
+### Technologies used
 - Html
 - Css
 - Javascript
