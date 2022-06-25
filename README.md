@@ -24,18 +24,19 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+**Clone the repo into your local machine.**
 
-### Setup
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+NPM should be installed
 
 ### Install
+run `npm install` in the project folder.
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+run `npm run start`.
 
 
 ## Authors
