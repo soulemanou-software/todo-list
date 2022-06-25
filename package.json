@@ -1,10 +1,11 @@
 {
-  "name": "todo-list",
+  "name": "to-do-list",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -14,18 +15,20 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soulemanou-software/todo-list/issues"
+    "url": "https://github.com/soulemanou-software/todo-list.git/issues"
   },
-  "homepage": "https://github.com/soulemanou-software/todo-list#readme",
+  "homepage": "https://github.com/soulemanou-software/todo-list.git#readme",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0"
-  },
-  "dependencies": {
-    "three": "^0.141.0"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
   }
 }

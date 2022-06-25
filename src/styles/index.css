@@ -1,5 +1,5 @@
 body {
-  background-image: url("../assets/background1.jpg");
+  background-image: url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -31,17 +31,9 @@ input[type="text"] {
 }
 
 li {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
   font-size: 16px;
-  padding: 8px;
-  margin: 0 5%;
-  border: 1px solid #000;
-}
-
-li span {
-  align-self: flex-start;
+  padding: 12px;
 }
 
 button {
@@ -49,24 +41,4 @@ button {
   margin-left: 2%;
   padding: 8px;
   margin-bottom: 2%;
-}
-
-.delete-btn {
-  display: none;
-}
-
-.checkContainer {
-  background-color: rgb(62, 19, 19);
-}
-
-.checkTask {
-  text-decoration: line-through;
-}
-
-.active {
-  display: block;
-}
-
-.disable {
-  display: none;
 }
