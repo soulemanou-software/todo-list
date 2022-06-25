@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "extends": "eslint-config-airbnb",
+    "lint": "eslint app"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
     "webpack": "^5.73.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4"
   }
 }
