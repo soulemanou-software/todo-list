@@ -7,7 +7,9 @@
     "build": "webpack",
     "dev": "webpack serve",
     "extends": "eslint-config-airbnb",
-    "lint": "eslint app"
+    "lint": "eslint app",
+    "lint:scss": "stylelint \"src/**/*.scss\"",
+    "lint:scss:fix": "stylelint \"src/**/*.scss\" --fix"
   },
   "repository": {
     "type": "git",
