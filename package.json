@@ -1,42 +1,43 @@
 {
-  "name": "to-do-list",
+  "name": "webpack-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "private": true,
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve",
-    "extends": "eslint-config-airbnb",
-    "lint": "eslint app",
-    "lint:scss": "stylelint \"src/**/*.scss\"",
-    "lint:scss:fix": "stylelint \"src/**/*.scss\" --fix"
+    "test": "jest",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soulemanou-software/todo-list.git"
+    "url": "git+https://github.com/aeh1707/webpack-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soulemanou-software/todo-list.git/issues"
+    "url": "https://github.com/aeh1707/webpack-template/issues"
   },
-  "homepage": "https://github.com/soulemanou-software/todo-list.git#readme",
+  "homepage": "https://github.com/aeh1707/webpack-template#readme",
   "devDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2",
-    "babel-loader": "^8.2.5",
+    "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
     "html-webpack-plugin": "^5.5.0",
-    "sass": "^1.52.3",
-    "sass-loader": "^13.0.0",
+    "jest": "^28.1.1",
     "style-loader": "^3.3.1",
-    "stylelint-config-standard": "^26.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.2"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4"
-  }
+    "lodash": "^4.17.21"
+  },
+  "main": "webpack.config.js"
 }
