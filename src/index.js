@@ -1,5 +1,4 @@
-import './styles/index.css';
-import addtask from './addtaskfunction.js';
+import addTask from './addtaskfunction.js';
 import editTask from './editfunction.js';
 import deleteTask from './delatefunction.js';
 import getData from './getdatafunction.js';
@@ -10,7 +9,7 @@ const tasks = document.querySelector('.tasks');
 const button = document.querySelector('button');
 const data = JSON.parse(localStorage.getItem('list'));
 
-addtask();
+addTask();
 
 // add task event listener
 inputField.addEventListener('keypress', (e) => {
