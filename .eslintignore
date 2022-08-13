@@ -1,2 +1,6 @@
 src/index.js
 src/Task.js
+src/getdatafunction.js
+src/editfunction.js
+src/delatefunction.js
+src/addtaskfunction.js
