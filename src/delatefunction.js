@@ -1,4 +1,5 @@
 import { tasks } from './index.js'
+
 // Delete task from list
 const deleteTask = (task) => {
     tasks.removeChild(task);

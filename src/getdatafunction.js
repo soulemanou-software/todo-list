@@ -1,6 +1,5 @@
 import { updateStorage, data, tasks } from './index.js';
 
-
 // Get data from local storage
 const getData = () => {
     data.map((i) => {
