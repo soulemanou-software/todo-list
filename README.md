@@ -1,19 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TODO LIST APP
 
-> Description the project.
+> Description
+> ##
+> this is a todo list project in which i created an app that adds,remove select and recicle result as progrsss of your todo activities.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+### Major languages
+- HTML
+- CSS
+- JavaScript 
+### Frameworks
+- WEBPACK 
+- Linters
+### Technologies used
+- Html
+- Css
+- Javascript
+- webpack
+- linnter
+- chrome browser
+- dev tools(inspector)
 
-## Live Demo (if available)
+## Live Demo available 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://soulemanou-software.github.io/todo-list/)
 
 
 ## Getting Started
@@ -24,18 +38,19 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+**Clone the repo into your local machine.**
 
-### Setup
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+NPM should be installed
 
 ### Install
+run `npm install` in the project folder.
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+run `npm run start`.
 
 
 ## Authors
