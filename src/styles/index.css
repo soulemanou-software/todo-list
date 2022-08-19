@@ -52,7 +52,6 @@ input.editInput {
   margin-left: 0%;
   width: auto;
   height: auto;
-  border: 2px solid red;
 }
 
 input[type="text"] {
@@ -66,7 +65,7 @@ input[type="text"] {
 
 li {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   list-style: none;
   font-size: 16px;
   padding: 8px;
@@ -76,7 +75,7 @@ li {
 }
 
 li span {
-  font-size: 1.4vw;
+  font-size:1.4vw;
   font-weight: 600;
 }
 
