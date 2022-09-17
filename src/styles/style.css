@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu+Mono:ital@1&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.input {
+  margin-top: 10px;
+  width: 96%;
+  padding: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  box-shadow: 5px 5px 5px 5px #888;
+}
+
+.todo-list {
+  list-style: none;
+  width: 90%;
+  max-height: 450px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #eee;
+}
+
+.description-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.three-dots {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.options {
+  height: 30px;
+  width: 30px;
+}
+
+.card-footer {
+  text-align: center;
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.danger {
+  color: red;
+  margin-right: 10px;
+}
+
+.success {
+  color: green;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.edit-form {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.edit-input {
+  width: 90%;
+}
+
+button.trash {
+  border: none;
+  flex: 1;
+  margin-left: 10px;
+  width: 10%;
+  border-radius: 5px;
+}
+
+button.trash:hover {
+  background-color: red;
+  color: white;
+  fill: white;
+}
+
+.none {
+  display: none;
+}
+
+.edit-item {
+  transition: 2s ease-out;
+}
+
+@media screen and (max-width: 640px) {
+  #main {
+    display: flex;
+    width: 100%;
+    padding: 30px 10px 10px 10px;
+  }
+
+  .card {
+    width: 90%;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px 5px #888;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    width: 50%;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 5px 5px #888;
+    padding: 10px;
+  }
+}
